@@ -79,6 +79,7 @@ describe('CppConfigurationLanguageModelTool Tests', () => {
         version: number;
         isDirty: boolean;
         isClosed: boolean;
+        encoding: string | undefined;
         save(): Thenable<boolean> {
             throw new Error('Method not implemented.');
         }
